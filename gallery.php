@@ -39,19 +39,39 @@
                         </div>
                         <img src="Assets/img(18).png" alt="">
                     </div>
-                    <div>
+                    <div class="relative group">
+                        <div class="absolute opacity-0 duration-300 group-hover:opacity-100 bg-[#00000077] w-full h-full flex justify-center text-white items-center font-medium flex-col gap-10">
+                            <div class="text-5xl">HORTAIN PLACE</div>
+                            <div class="px-10 text-wrap">Explore the misty grasslands, stunning cliffs, and the breathtaking World's End at Horton Plains National Park</div>
+                        </div>
                         <img src="Assets/img(19).png" alt="">
                     </div>
-                    <div>
+                    <div class="relative group">
+                        <div class="absolute opacity-0 duration-300 group-hover:opacity-100 bg-[#00000077] w-full h-full flex justify-center text-white items-center font-medium flex-col gap-10">
+                            <div class="text-5xl">HORTAIN PLACE</div>
+                            <div class="px-10 text-wrap">Explore the misty grasslands, stunning cliffs, and the breathtaking World's End at Horton Plains National Park</div>
+                        </div>
                         <img src="Assets/img(20).png" alt="">
                     </div>
-                    <div>
+                    <div class="relative group">
+                        <div class="absolute opacity-0 duration-300 group-hover:opacity-100 bg-[#00000077] w-full h-full flex justify-center text-white items-center font-medium flex-col gap-10">
+                            <div class="text-5xl">HORTAIN PLACE</div>
+                            <div class="px-10 text-wrap">Explore the misty grasslands, stunning cliffs, and the breathtaking World's End at Horton Plains National Park</div>
+                        </div>
                         <img src="Assets/img(21).png" alt="">
                     </div>
-                    <div>
+                    <div class="relative group">
+                        <div class="absolute opacity-0 duration-300 group-hover:opacity-100 bg-[#00000077] w-full h-full flex justify-center text-white items-center font-medium flex-col gap-10">
+                            <div class="text-5xl">HORTAIN PLACE</div>
+                            <div class="px-10 text-wrap">Explore the misty grasslands, stunning cliffs, and the breathtaking World's End at Horton Plains National Park</div>
+                        </div>
                         <img src="Assets/img(22).png" alt="">
                     </div>
-                    <div>
+                    <div class="relative group">
+                        <div class="absolute opacity-0 duration-300 group-hover:opacity-100 bg-[#00000077] w-full h-full flex justify-center text-white items-center font-medium flex-col gap-10">
+                            <div class="text-5xl">HORTAIN PLACE</div>
+                            <div class="px-10 text-wrap">Explore the misty grasslands, stunning cliffs, and the breathtaking World's End at Horton Plains National Park</div>
+                        </div>
                         <img src="Assets/img(23).png" alt="">
                     </div>
                 </div>

@@ -14,11 +14,11 @@
 <div class="w-full flex justify-center bg-white text-black font-bold text-sm items-center py-5">
     <a href="/" class="px-10">HOME</a>
     <a href="about.php" class="px-10">ABOUT</a>
-    <a href="" class="px-10">TOUR PACKAGES</a>
-    <a href="" class="px-42 flex justify-center items-center">
+    <a href="tour-packages.php" class="px-10">TOUR PACKAGES</a>
+    <a href="/" class="px-42 flex justify-center items-center">
         <img class="h-full w-full" src="Assets/logo.png" alt="">
     </a>
-    <a href="" class="px-10">GALLERY</a>
-    <a href="" class="px-10">BLOG</a>
-    <a href="" class="px-10">CONTACT</a>
+    <a href="gallery.php" class="px-10">GALLERY</a>
+    <a href="blog.php" class="px-10">BLOG</a>
+    <a href="contact.php" class="px-10">CONTACT</a>
 </div>

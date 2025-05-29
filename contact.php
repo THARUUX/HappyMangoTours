@@ -29,8 +29,8 @@
             </div>
 
 
-            <div class="w-full p-20 bg-white">
-                <div class="bg-[#F9F9F9] w-full py-15 px-10 flex pb-28">
+            <div class="w-full p-20 bg-white flex justify-center">
+                <div class="bg-[#F9F9F9] w-[1000px] py-15 px-10 flex pb-28">
                     <div class="w-1/2 flex flex-col gap-10">
                         <input class="bg-[#F3F3F3] p-5 border-0 text-[#535446]" type="text" placeholder="Your Name">
                         <input class="bg-[#F3F3F3] p-5 border-0 text-[#535446]" type="text" placeholder="Your Phone Number">
