@@ -22,28 +22,28 @@
         <?php include 'components/header.php'; ?>
 
         <div class="w-full py-20 flex flex-col justify-center items-center gap-5 bg-[#000000aa]">
-            <div class="text-7xl font-black font-pri">Tour Packages</div>
-            <div class="text-2xl font-black font-pri">HOME - TOURS</div>
+            <div class="text-5xl sm:text-7xl font-black font-pri">Tour Packages</div>
+            <div class="text-xl sm:text-2xl font-black font-pri">HOME - TOURS</div>
         </div>
         <div class="max-w-[2500px] w-full bg-slate-300 grow text-white">
             
 
-            <div class="py-20 w-full px-10 flex flex-col bg-white text-black items-center justify-center gap-5">
-                <div class="w-full justify-center flex gap-5">
-                    <a href="tour-packages.php" class="hover:bg-[#FF9933] hover:text-white py-2 px-8 rounded-full font-bold duration-300">TAILOR MADE TOURS</a>
+            <div class="py-20 w-full px-5 sm:px-10 flex flex-col bg-white text-black items-center justify-center gap-5">
+                <div class="w-full justify-center flex gap-5 text-xs sm:text-md">
+                    <a href="tour-packages.php" class="hover:bg-[#FF9933] hover:text-white py-2 px-8 rounded-full font-bold duration-300 text-center">TAILOR MADE TOURS</a>
                     <span class="w-1 h-auto bg-black "></span>
-                    <a href="round-tour-packages.php" class="bg-[#FF9933] text-white py-2 px-8 rounded-full font-bold duration-300">ROUND TOURS</a>
+                    <a href="round-tour-packages.php" class="bg-[#FF9933] text-white py-2 px-8 rounded-full font-bold duration-300 text-center">ROUND TOURS</a>
                 </div>
-                <div class="w-full text-6xl font-pri font-black text-center">Tailor-Made Tours – Your Journey, Your Way!</div>
-                <div class="sm:w-3/7 flex justify-center text-center font-pri">At Happy Mango Tours, we believe every traveler is unique. Our Tailor-Made Tours allow you to design a fully customized itinerary based on your interests, budget, and travel style. Whether you seek cultural discoveries, wildlife adventures, scenic getaways, or relaxing beach stays, we’ll craft the perfect journey just for you. </div>
+                <div class="w-full text-4xl sm:text-6xl font-pri font-black text-center">Tailor-Made Tours – Your Journey, Your Way!</div>
+                <div class="sm:w-3/7 flex justify-center text-center font-pri text-sm sm:text-md">At Happy Mango Tours, we believe every traveler is unique. Our Tailor-Made Tours allow you to design a fully customized itinerary based on your interests, budget, and travel style. Whether you seek cultural discoveries, wildlife adventures, scenic getaways, or relaxing beach stays, we’ll craft the perfect journey just for you. </div>
             </div> 
 
-            <div class="w-full bg-white px-20 ">
+            <div class="w-full bg-white sm:px-20 ">
                 <div class="flex justify-center gap-5  flex-wrap">
 
                     <!-- Slide 1 -->
                     <div class="">
-                    <div class="w-[578px] h-[736px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(7\).png);">
+                    <div class="sm:w-[578px] sm:h-[736px] h-[500px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(7\).png);">
                         <div class="absolute bg-[#ff9933] top-0 right-7 rounded-b-xl text-white text-xs font-bold px-3 py-2 z-10">TAILOR MADE TOURS</div>
                         <div class="crsl-cont flex flex-col justify-end absolute w-full h-[306px]"></div>
                         <div class="bg-black/50 z-[9] opacity-0 group-hover:opacity-100 duration-300 w-full grow flex justify-center items-center text-white">
@@ -65,7 +65,7 @@
                     </div>
                     </div>
                     <div class="">
-                    <div class="w-[578px] h-[736px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(8\).png);">
+                    <div class="sm:w-[578px] sm:h-[736px] h-[500px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(8\).png);">
                         <div class="absolute bg-[#ff9933] top-0 right-7 rounded-b-xl text-white text-xs font-bold px-3 py-2 z-10">TAILOR MADE TOURS</div>
                         <div class="crsl-cont flex flex-col justify-end absolute w-full h-[306px]"></div>
                         <div class="bg-black/50 z-[9] opacity-0 group-hover:opacity-100 duration-300 w-full grow flex justify-center items-center text-white">
@@ -87,7 +87,7 @@
                     </div>
                     </div>
                     <div class="">
-                    <div class="w-[578px] h-[736px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(9\).png);">
+                    <div class="sm:w-[578px] sm:h-[736px] h-[500px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(9\).png);">
                         <div class="absolute bg-[#ff9933] top-0 right-7 rounded-b-xl text-white text-xs font-bold px-3 py-2 z-10">TAILOR MADE TOURS</div>
                         <div class="crsl-cont flex flex-col justify-end absolute w-full h-[306px]"></div>
                         <div class="bg-black/50 z-[9] opacity-0 group-hover:opacity-100 duration-300 w-full grow flex justify-center items-center text-white">
@@ -109,7 +109,7 @@
                     </div>
                     </div>
                     <div class="">
-                    <div class="w-[578px] h-[736px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(7\).png);">
+                    <div class="sm:w-[578px] sm:h-[736px] h-[500px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(7\).png);">
                         <div class="absolute bg-[#ff9933] top-0 right-7 rounded-b-xl text-white text-xs font-bold px-3 py-2 z-10">TAILOR MADE TOURS</div>
                         <div class="crsl-cont flex flex-col justify-end absolute w-full h-[306px]"></div>
                         <div class="bg-black/50 z-[9] opacity-0 group-hover:opacity-100 duration-300 w-full grow flex justify-center items-center text-white">
@@ -131,7 +131,7 @@
                     </div>
                     </div>
                     <div class="">
-                    <div class="w-[578px] h-[736px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(8\).png);">
+                    <div class="sm:w-[578px] sm:h-[736px] h-[500px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(8\).png);">
                         <div class="absolute bg-[#ff9933] top-0 right-7 rounded-b-xl text-white text-xs font-bold px-3 py-2 z-10">TAILOR MADE TOURS</div>
                         <div class="crsl-cont flex flex-col justify-end absolute w-full h-[306px]"></div>
                         <div class="bg-black/50 z-[9] opacity-0 group-hover:opacity-100 duration-300 w-full grow flex justify-center items-center text-white">
@@ -153,7 +153,7 @@
                     </div>
                     </div>
                     <div class="">
-                    <div class="w-[578px] h-[736px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(9\).png);">
+                    <div class="sm:w-[578px] sm:h-[736px] h-[500px] bg-slate-300 flex flex-col justify-end relative group" style="background-image: url(Assets/img\(9\).png);">
                         <div class="absolute bg-[#ff9933] top-0 right-7 rounded-b-xl text-white text-xs font-bold px-3 py-2 z-10">TAILOR MADE TOURS</div>
                         <div class="crsl-cont flex flex-col justify-end absolute w-full h-[306px]"></div>
                         <div class="bg-black/50 z-[9] opacity-0 group-hover:opacity-100 duration-300 w-full grow flex justify-center items-center text-white">
@@ -182,28 +182,28 @@
             </div>
 
             <div class="w-full bg-white text-black">
-                <div class="w-full flex pt-28 pb-10 flex-col justify-center items-center gap-5">
-                    <div class="text-3xl flex justify-center font-sec">Enjoy with your love</div>
-                    <div class="text-5xl font-black flex justify-center font-pri ">Why Choose a Round Tour?</div>
-                    <div class="sm:w-3/7 flex justify-center text-center font-pri ">A round tour is the best way to experience Sri Lanka’s diverse landscapes and cultural treasures in a well-organized, hassle-free journey. Travel through stunning coastal towns, historical wonders, lush tea plantations, and vibrant cities with our expert guides, comfortable transport, and handpicked accommodations. Whether you’re looking for adventure, relaxation, or cultural immersion, our round tours offer the perfect balance of everything.</div>
+                <div class="w-full flex pt-10 px-5 sm:px-0 sm:pt-28 pb-10 flex-col justify-center items-center gap-5">
+                    <div class="text-xl sm:text-3xl flex justify-center font-sec">Enjoy with your love</div>
+                    <div class="text-3xl sm:text-5xl font-black flex justify-center font-pri ">Why Choose a Round Tour?</div>
+                    <div class="sm:w-3/7 flex justify-center sm:text-center font-pri ">A round tour is the best way to experience Sri Lanka’s diverse landscapes and cultural treasures in a well-organized, hassle-free journey. Travel through stunning coastal towns, historical wonders, lush tea plantations, and vibrant cities with our expert guides, comfortable transport, and handpicked accommodations. Whether you’re looking for adventure, relaxation, or cultural immersion, our round tours offer the perfect balance of everything.</div>
                 </div>
 
-                <div class="w-full flex flex-wrap px-20 pb-20">
-                    <div class="w-1/3 flex gap-10 px-10 py-20">
+                <div class="w-full flex flex-wrap px-5 sm:px-20 pb-20">
+                    <div class="sm:w-1/3 w-full flex gap-10 sm:px-10 py-10 sm:py-20">
                         <img src="Assets/Group 23364.png" alt="">
                         <div class="flex flex-col grow gap-5">
                             <div class="text-xl font-bold">Cultural & Heritage Tour</div>
                             <div>Explore ancient cities, temples, and UNESCO heritage sites.</div>
                         </div>
                     </div>
-                    <div class="w-1/3 flex gap-10 px-10 py-20">
+                    <div class="sm:w-1/3 w-full flex gap-10 sm:px-10 py-10 sm:py-20">
                         <img src="Assets/Group 23364.png" alt="">
                         <div class="flex flex-col grow gap-5">
                             <div class="text-xl font-bold">Wildlife & Nature Tour</div>
                             <div>Discover national parks, safaris, and breathtaking landscapes.</div>
                         </div>
                     </div>
-                    <div class="w-1/3 flex gap-10 px-10 py-20">
+                    <div class="sm:w-1/3 w-full flex gap-10 sm:px-10 py-10 sm:py-20">
                         <img src="Assets/Group 23364.png" alt="">
                         <div class="flex flex-col grow gap-5">
                             <div class="text-xl font-bold">Coastal & Beach Tour</div>

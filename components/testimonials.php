@@ -9,7 +9,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full sm:w-1/2 sm:px-40 px-10 py-10 sm:py-0 bg-white flex flex-col items-center justify-center text-black">
+        <div class=" sm:w-1/2 sm:px-40 px-10 py-10 sm:py-0 bg-white flex flex-col items-center justify-center text-black">
             <div class="font-sec text-xl sm:text-4xl">Enjoy with your love</div>
             <div class="text-4xl sm:text-6xl font-black my-5 sm:my-10">Testimonials</div>
             <div class="text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
