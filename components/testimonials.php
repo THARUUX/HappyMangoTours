@@ -1,6 +1,6 @@
 <section class="w-full flex justify-center flex-col items-center">
-    <div class="w-full flex">
-        <div class="w-1/2 px-44 py-44 flex justify-center items-center bg-[#02515A] text-white">
+    <div class="w-full flex sm:flex-row flex-col">
+        <div class="w-full sm:w-1/2 sm:px-44 px-10 py-10 sm:py-44 flex justify-center items-center bg-[#02515A] text-white">
             <div class="w-full">
                 <div class="text-3xl font-bold">Naduni Pramodya</div>
                 <div class="text-xl">Amazing Traveller</div>
@@ -9,9 +9,9 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/2 px-40 bg-white flex flex-col items-center justify-center text-black">
-            <div class="font-sec text-4xl">Enjoy with your love</div>
-            <div class="text-6xl font-black my-10">Testimonials</div>
+        <div class="w-full sm:w-1/2 sm:px-40 px-10 py-10 sm:py-0 bg-white flex flex-col items-center justify-center text-black">
+            <div class="font-sec text-xl sm:text-4xl">Enjoy with your love</div>
+            <div class="text-4xl sm:text-6xl font-black my-5 sm:my-10">Testimonials</div>
             <div class="text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
             <div class="swiper mySwiper mt-12 relative w-full max-w-6xl mx-auto px-4">
             <div class="swiper-wrapper">

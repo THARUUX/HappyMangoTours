@@ -17,20 +17,20 @@
 </head>
 <body>
 
-    <div class="w-screen min-h-screen flex justify-center items-center flex-col">
+    <div class="w-screen min-h-screen flex justify-center items-center flex-col text-white">
+        <?php include 'components/header.php'; ?>
+        <section class="w-full h-screen flex gap-10 justify-center items-center flex-col" style="background-image: url(/Assets/mainbg.png); background-size: cover; background-position: center;">
+            <div class="text-6xl font-sec">Explore the World With</div>
+            <div class="relative flex flex-col items-center gap-20">
+                <div class="text-9xl font-black font-pri">Happy Mango Tours!</div>
+                <div class="w-1/3 top-24 absolute"><img src="Assets/Search Bar Container.png" class="w-full" alt=""></div>
+                <div class="text-2xl w-2/3 text-center">Unforgettable journeys, breathtaking destinations, and personalized experiences await you!</div>
+            </div>
+        </section>
         <div class="max-w-[2500px] w-full bg-slate-300 grow text-white">
             
             <!-- Header -->
-            <?php include 'components/header.php'; ?>
 
-            <section class="w-full h-screen flex gap-10 justify-center items-center flex-col" style="background-image: url(/Assets/mainbg.png); background-size: cover; background-position: center;">
-                <div class="text-6xl font-sec">Explore the World With</div>
-                <div class="relative flex flex-col items-center gap-20">
-                    <div class="text-9xl font-black font-pri">Happy Mango Tours!</div>
-                    <div class="w-1/3 top-24 absolute"><img src="Assets/Search Bar Container.png" class="w-full" alt=""></div>
-                    <div class="text-2xl w-2/3 text-center">Unforgettable journeys, breathtaking destinations, and personalized experiences await you!</div>
-                </div>
-            </section>
 
             <section class="w-full bg-white text-black pb-40" id="1">
                 <div class="w-full flex pt-28 pb-10 flex-col justify-center">

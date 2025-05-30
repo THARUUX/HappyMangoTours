@@ -1,9 +1,9 @@
 <section class="w-full flex flex-col sm:flex-row  bg-white">
     <div class="flex w-full p-10 sm:p-20">
         <div class="flex flex-col gap-10">
-            <div class="text-black flex gap-8 flex-col">
-                <div class="font-sec text-3xl">Enjoy with your love</div>
-                <div class="font-pri text-6xl font-[1000]">FAQ</div>
+            <div class="text-black flex gap-3 sm:gap-8 flex-col">
+                <div class="font-sec text-xl sm:text-3xl">Enjoy with your love</div>
+                <div class="font-pri text-4xl sm:text-6xl font-[1000]">FAQ</div>
             </div>
             <div class="text-black">
                 Got questions? We’ve got answers! Here are some common queries to help you plan your perfect trip with Happy Mango Tours.

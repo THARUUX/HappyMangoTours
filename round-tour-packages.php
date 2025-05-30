@@ -17,16 +17,16 @@
 </head>
 <body class="bg-white">
 
-    <div class="w-screen min-h-screen flex justify-center items-center flex-col">
+    <div class="w-screen min-h-screen flex justify-center items-center flex-col text-white">
+        <!-- Header -->
+        <?php include 'components/header.php'; ?>
+
+        <div class="w-full py-20 flex flex-col justify-center items-center gap-5 bg-[#000000aa]">
+            <div class="text-7xl font-black font-pri">Tour Packages</div>
+            <div class="text-2xl font-black font-pri">HOME - TOURS</div>
+        </div>
         <div class="max-w-[2500px] w-full bg-slate-300 grow text-white">
             
-            <!-- Header -->
-            <?php include 'components/header.php'; ?>
-
-            <div class="w-full py-20 flex flex-col justify-center items-center gap-5 bg-[#000000aa]">
-                <div class="text-7xl font-black font-pri">Tour Packages</div>
-                <div class="text-2xl font-black font-pri">HOME - TOURS</div>
-            </div>
 
             <div class="py-20 w-full px-10 flex flex-col bg-white text-black items-center justify-center gap-5">
                 <div class="w-full justify-center flex gap-5">

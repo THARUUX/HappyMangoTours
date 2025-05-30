@@ -17,29 +17,29 @@
 </head>
 <body class="bg-white">
 
-    <div class="w-screen min-h-screen flex justify-center items-center flex-col">
+    <div class="w-screen min-h-screen flex justify-center items-center flex-col text-white">
+        <!-- Header -->
+        <?php include 'components/header.php'; ?>
+
+        <div class="w-full py-20 flex flex-col justify-center items-center gap-5 bg-[#000000aa]">
+            <div class="text-7xl font-black font-pri">About</div>
+            <div class="text-2xl font-black font-pri">HOME - ABOUT US</div>
+        </div>
         <div class="max-w-[2500px] w-full bg-slate-300 grow text-white">
             
-            <!-- Header -->
-            <?php include 'components/header.php'; ?>
-
-            <div class="w-full py-20 flex flex-col justify-center items-center gap-5 bg-[#000000aa]">
-                <div class="text-7xl font-black font-pri">About</div>
-                <div class="text-2xl font-black font-pri">HOME - ABOUT US</div>
-            </div>
 
             <div class="w-full flex flex-wrap sm:flex-nowrap bg-white text-black">
-                <div class="w-1/2 h-auto p-20 flex flex-col justify-center gap-5">
-                    <div class="text-7xl font-pri font-black w-1/2">We Make Your Travel Adventures</div>
+                <div class="w-full sm:w-1/2 h-auto p-10 sm:p-20 flex flex-col justify-center gap-5">
+                    <div class="text-4xl sm:text-7xl font-pri font-black sm:w-1/2">We Make Your Travel Adventures</div>
                     <div>At Happy Mango Tours, we believe travel is more than just visiting places — it’s about creating unforgettable memories. Based in Sri Lanka, we specialize in tailor-made and round tours that showcase the island’s best. With local expertise, personalized service, and a passion for adventure, we craft journeys that are unique, seamless, and full of authentic experiences.</div>
                     <div class="text-black mt-10">we are more than travel planners — we are storytellers who help you write your own Sri Lankan adventure. Our experienced local guides, handpicked accommodations, and thoughtfully curated activities guarantee that your time with us will be meaningful, authentic, and full of special moments.</div>
                     <div class="w-full py-5">
                         <button class="bg-[#ff9933] py-2 rounded-full px-8 cursor-pointer hover:bg-[#ffab57] text-white text-sm">Start your trip</button>
                     </div>
                 </div>
-                <div class="w-1/2 h-auto">
-                    <div class="pt-20 py-16">Join us and discover the real Sri Lanka — its vibrant culture, its breathtaking landscapes, its warm-hearted people — with a travel experience made just for you. Your journey begins here, with Happy Mango Tours, where every trip is a happy memory in the making.</div>
-                    <div class="mt-20">
+                <div class="p-10 sm:p-0 sm:w-1/2 h-auto">
+                    <div class="sm:pt-20 sm:py-16">Join us and discover the real Sri Lanka — its vibrant culture, its breathtaking landscapes, its warm-hearted people — with a travel experience made just for you. Your journey begins here, with Happy Mango Tours, where every trip is a happy memory in the making.</div>
+                    <div class=" mt-5 sm:mt-20">
                         <img src="Assets/img(17).png" class="w-full h-auto" alt="">
                     </div>
                 </div>
