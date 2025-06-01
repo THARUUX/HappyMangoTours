@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 
 </head>
 <body class="bg-white">
@@ -22,14 +23,14 @@
         <?php include 'components/header.php'; ?>
 
         <div class="w-full py-20 flex flex-col justify-center items-center gap-5 bg-[#000000aa]">
-            <div class="text-7xl font-black font-pri">Tradiational doors & travel</div>
-            <div class="text-2xl font-black font-pri">Home - Tours</div>
+            <div class="text-5xl sm:text-7xl text-center font-black font-pri">Tradiational doors & travel</div>
+            <div class="text-xl sm:text-2xl font-black font-pri">Home - Tours</div>
         </div>
         <div class="max-w-[2500px] w-full bg-slate-300 grow text-white">
             
 
-            <div class="w-full p-10 py-20 bg-white flex">
-                <div class="w-5/7 p-10 py-20 flex flex-col gap-20 text-black">
+            <div class="w-full sm:p-10 sm:py-20 bg-white flex flex-col sm:flex-row">
+                <div class="w-full sm:w-5/7 p-10 sm:py-20 flex flex-col gap-5 sm:gap-20 text-black text-sm">
                     <img src="Assets/img(24).png" class="w-full" alt="">
 
                     <div class="">When you travel through Sri Lanka, it’s not just the breathtaking landscapes or the mouth-watering food that captures your heart — it’s also the quiet beauty hidden in its ancient architecture. One of the most charming and often overlooked details you’ll encounter on your journey is Sri Lanka’s traditional doors.

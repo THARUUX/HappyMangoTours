@@ -22,7 +22,24 @@
         </div>
         <div class="grow px-5 sm:px-20 text-white flex flex-col gap-3 border-white/75 ">
             <div>FOLLOW US</div>
-            <div></div>
+            <div class="flex flex-col">
+                <div class="flex w-[150px] h-[75px]">
+                    <div class="w-1/2 flex justify-center items-center bg-[#2F5FA5]">
+                        <img src="/Assets/Group 23443.png" alt="">
+                    </div>
+                    <div class="w-1/2 flex justify-center items-center bg-[#64CCF0]">
+                        <img src="/Assets/Group 23445.png" alt="">
+                    </div>
+                </div>
+                <div class="flex w-[150px] h-[75px]">
+                    <div class="w-1/2 flex justify-center items-center bg-[#E6615C]">
+                        <img src="/Assets/Group 23447.png" alt="">
+                    </div>
+                    <div class="w-1/2 flex justify-center items-center bg-[#B44FB8]">
+                        <img src="/Assets/Group 23449.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="grow px-5 sm:px-20 text-white flex flex-col gap-3 border-white/75  sm:border-l">
             <div>GET UPDATES ON NEW TOURS <br> & BLOG NEWS </div>

@@ -8,8 +8,8 @@
             <div class="text-black">
                 Got questions? We’ve got answers! Here are some common queries to help you plan your perfect trip with Happy Mango Tours.
             </div>
-            <div class="w-full">
-                <div id="accordion-open" data-accordion="open">
+            <div class="w-full ">
+                <!--<div id="accordion-open" data-accordion="open">
                 <h2 id="accordion-open-heading-1" class="bg-white">
                     <button type="button" class="flex bg-white items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 hover:bg-gray-100 hover:text-slate-900" data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1">
                     <span class="flex items-center"><svg class="w-5 h-5 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg> What types of tours do you offer?</span>
@@ -95,6 +95,27 @@
                     </ul>
                     </div>
                 </div>
+                </div>-->
+
+                <div class="collapse collapse-arrow bg-base-100 border border-base-300 text-black">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title font-semibold">What types of tours do you offer?</div>
+                    <div class="collapse-content text-sm text-wrap">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-100 border border-base-300 text-black">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title font-semibold">Can I customize my travel itinerary?</div>
+                    <div class="collapse-content text-sm text-wrap">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-100 border border-base-300 text-black">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title font-semibold">Do you provide transportation and accommodation?</div>
+                    <div class="collapse-content text-sm text-wrap">Absolutely! Our packages include comfortable transportation and carefully selected accommodations for a hassle-free experience. Absolutely! Our packages include comfortable transportation and carefully selected accommodations for a hassle-free experience. Absolutely! Our packages include comfortable transportation and carefully selected accommodations for a hassle-free experience.</div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-100 border border-base-300 text-black">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title font-semibold">How do I book a tour with Happy Mango Tours?</div>
+                    <div class="collapse-content text-sm text-wrap">Absolutely! Our packages include comfortable transportation and carefully selected accommodations for a hassle-free experience. Absolutely! Our packages include comfortable transportation and carefully selected accommodations for a hassle-free experience. Absolutely! Our packages include comfortable transportation and carefully selected accommodations for a hassle-free experience.</div>
                 </div>
 
             </div>

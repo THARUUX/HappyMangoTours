@@ -18,7 +18,7 @@
 
                 <!-- Slide 1 -->
                 <div class="swiper-slide flex flex-col items-center">
-                <img src="https://randomuser.me/api/portraits/women/1.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-32 object-cover" />
+                <img src="https://randomuser.me/api/portraits/women/1.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-auto object-cover" />
                 <h4 class="text-xl font-bold mt-4">Naduni Pramodya</h4>
                 <p class="text-gray-500">Amazing Traveller</p>
                 <div class="text-orange-400 mt-2 text-lg">★★★★★</div>
@@ -26,7 +26,7 @@
 
                 <!-- Slide 2 -->
                 <div class="swiper-slide flex flex-col items-center">
-                <img src="https://randomuser.me/api/portraits/men/2.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-32 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/2.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-auto object-cover" />
                 <h4 class="text-xl font-bold mt-4">John Doe</h4>
                 <p class="text-gray-500">Adventure Seeker</p>
                 <div class="text-orange-400 mt-2 text-lg">★★★★★</div>
@@ -34,7 +34,7 @@
 
                 <!-- Slide 3 -->
                 <div class="swiper-slide flex flex-col items-center">
-                <img src="https://randomuser.me/api/portraits/women/3.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-32 object-cover" />
+                <img src="https://randomuser.me/api/portraits/women/3.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-auto object-cover" />
                 <h4 class="text-xl font-bold mt-4">Sarah Lee</h4>
                 <p class="text-gray-500">Nature Lover</p>
                 <div class="text-orange-400 mt-2 text-lg">★★★★★</div>
@@ -42,7 +42,7 @@
 
                 <!-- Slide 4 -->
                 <div class="swiper-slide flex flex-col items-center">
-                <img src="https://randomuser.me/api/portraits/men/4.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-32 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/4.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-auto object-cover" />
                 <h4 class="text-xl font-bold mt-4">Mike Ross</h4>
                 <p class="text-gray-500">Explorer</p>
                 <div class="text-orange-400 mt-2 text-lg">★★★★★</div>
@@ -50,7 +50,7 @@
 
                 <!-- Slide 5 -->
                 <div class="swiper-slide flex flex-col items-center">
-                <img src="https://randomuser.me/api/portraits/women/5.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-32 object-cover" />
+                <img src="https://randomuser.me/api/portraits/women/5.jpg" class="rounded-full border-4 border-orange-400 w-24 h-24 md:w-32 md:h-auto object-cover" />
                 <h4 class="text-xl font-bold mt-4">Emily Clark</h4>
                 <p class="text-gray-500">Beach Lover</p>
                 <div class="text-orange-400 mt-2 text-lg">★★★★★</div>
@@ -94,5 +94,11 @@
     }
     });
 </script>
+
+<style>
+    .swiper-slide{
+        display: flex !important;
+    }
+</style>
 
 
