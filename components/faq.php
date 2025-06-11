@@ -1,6 +1,6 @@
 <section class="w-full flex flex-col sm:flex-row  bg-white">
-    <div class="flex w-full p-10 sm:p-20">
-        <div class="flex flex-col gap-10">
+    <div class="flex w-full sm:w-1/2 p-10 sm:p-20">
+        <div class="flex flex-col gap-10 ">
             <div class="text-black flex gap-3 sm:gap-8 flex-col">
                 <div class="font-sec text-xl sm:text-3xl">Enjoy with your love</div>
                 <div class="font-pri text-4xl sm:text-6xl font-[1000]">FAQ</div>
@@ -121,7 +121,7 @@
             </div>
         </div>
     </div>
-    <div class="min-w-[769px]">
-        <img class="min-w-[769px]" src="Assets/Image(2).png" alt="">
+    <div class="w-screen sm:w-1/2 max-h-screen">
+        <img class="w-full object-cover h-full" src="Assets/Image(2).png" alt="">
     </div>
 </section>
