@@ -72,7 +72,7 @@
                         Experience the Best of Sri Lanka
                     </div>
                     <div class="text-xl sm:text-3xl"><span class="font-bold">PRICE $119 /</span> 5Days Trip</div>
-                    <span class="w-3/5 h-[1px] bg-black"></span>
+                    <span class="w-3/5 h-[1px] bg-black/30"></span>
                     <div class="flex flex-col sm:flex-row w-full gap-5 sm:gap-10">
                         <div class="flex text-lg sm:text-2xl gap-5">
                             <img src="Assets/calendar-clock.png" alt="">
@@ -87,42 +87,44 @@
                             <div class="text-nowrap">25 people</div>
                         </div>
                     </div>
-                    <span class="w-3/5 h-[1px] bg-black"></span>
+                    <span class="w-3/5 h-[1px] bg-black/30"></span>
                     <div>
                         Discover the heart and soul of Sri Lanka with our carefully crafted "Best of Sri Lanka Tour." From ancient cities and lush hill country to golden beaches and thrilling safaris, this journey brings together the island’s most iconic destinations, culture, and natural wonders — all in one unforgettable adventure.
                     </div>
-                    <span class="w-3/5 h-[1px] bg-black"></span>
-                    <div class="text-5xl font-black font-pri">About this tour</div>
+                    <span class="w-3/5 h-[1px] bg-black/30"></span>
+                    <div class="text-4xl font-black font-pri">About this tour</div>
                     <div>
                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of  classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
                     </div>
-                    <span class="w-3/5 h-[1px] bg-black"></span>
-                    <div class="text-3xl sm:text-5xl font-black font-pri">Included/Excluded</div>
-                    <div class="sm:w-4/5 flex">
-                        <div class="w-1/2 flex-col flex gap-3 px-3 sm:px-0 text-sm sm:text-md">
-                            <div>Meet and assistance at the Colombo Airport.</div>
-                            <div>Specialized bilingual guide</div>
-                            <div>All fuel, insurance and license fees of the vehicle.</div>
-                            <div>Replacement of vehicle in case of breakdown.</div>
+                    <span class="w-3/5 h-[1px] bg-black/30"></span>
+                    <div class="text-3xl sm:text-4xl font-black font-pri">Included/Excluded</div>
+                    <div class="sm:w-4/5 flex gap-7 sm:gap-3 flex-col sm:flex-row">
+                        <div class="w-full sm:w-1/2 flex-col flex gap-3 px-3 sm:px-0 text-sm sm:text-md">
+                            <div class="flex items-center gap-2"><img src="/Assets/check-circle (2).png" alt="">Meet and assistance at the Colombo Airport.</div>
+                            <div class="flex items-center gap-2"><img src="/Assets/check-circle (2).png" alt="">Specialized bilingual guide</div>
+                            <div class="flex items-center gap-2"><img src="/Assets/check-circle (2).png" alt="">All fuel, insurance and license fees of the vehicle.</div>
+                            <div class="flex items-center gap-2"><img src="/Assets/check-circle (2).png" alt="">Replacement of vehicle in case of breakdown.</div>
                         </div>
-                        <div class="w-1/2 flex-col flex gap-3 px-3 sm:px-0 text-sm sm:text-md">
-                            <div>Meet and assistance at the Colombo Airport.</div>
-                            <div>Specialized bilingual guide</div>
-                            <div>All fuel, insurance and license fees of the vehicle.</div>
-                            <div>Replacement of vehicle in case of breakdown.</div>
+                        <div class="w-full sm:w-1/2 flex-col flex gap-3 px-3 sm:px-0 text-sm sm:text-md">
+                            <div class="flex items-center gap-2"><img src="/Assets/add.png" alt="">Meet and assistance at the Colombo Airport.</div>
+                            <div class="flex items-center gap-2"><img src="/Assets/add.png" alt="">Specialized bilingual guide</div>
+                            <div class="flex items-center gap-2"><img src="/Assets/add.png" alt="">All fuel, insurance and license fees of the vehicle.</div>
+                            <div class="flex items-center gap-2"><img src="/Assets/add.png" alt="">Replacement of vehicle in case of breakdown.</div>
                         </div>
                     </div>
-                    <span class="w-3/5 h-[1px] bg-black"></span>
-                    <div class="text-3xl sm:text-5xl font-black font-pri">Itinerary</div>
+                    <span class="w-3/5 h-[1px] bg-black/30"></span>
+                    <div class="text-3xl sm:text-4xl font-black font-pri">Itinerary</div>
                     <div class="flex flex-col gap-5">
                         <!--<div class="flex flex-col bg-[#F6F6F6] rounded-2xl">
                             <div class="flex gap-10 p-5 border-b border-slate-600 items-center">
-                                <button class="text-white bg-[#02515A] rounded-full py-2 px-4">DAY 01</button>
-                                <div class="text-xl">Kandy</div>
+                                <button class="text-white text-sm bg-[#02515A] rounded-full py-2 px-4">DAY 01</button>
+                                <div class="text-md">Kandy</div>
                             </div>
                             <div class="w-full p-5 flex gap-5">
-                                <img src="Assets/Image 4.png" class="" alt="">
-                                <div>
+                                    <div class="w-full sm:w-1/3">
+                                        <img class="object-cover w-full rounded-2xl" src="Assets/Image 4.png" class="" alt="">
+                                    </div>
+                                <div class="w-full sm:w-2/3">
                                     Arrive in Sri Lanka to a warm welcome from our guide at the airport. Explore the Pinnawala Elephant Orphanage on your way to Kandy, known for the world's largest captive elephant herd. Founded in 1975, the sanctuary cares for orphaned elephants.
                                     <br><br>
                                     After checking into your hotel, relax and attend the Kandy Cultural Dance Show in the evening. Visit the iconic Tooth Relic Temple, "Dalada Maligawa," for a dose of peaceful Buddhist culture with your guide's insights. Sleep overnight as a proud Kandyan, enjoying a journey blending nature and culture.
@@ -131,12 +133,14 @@
                         </div>
                         <div class="flex flex-col bg-[#F6F6F6] rounded-2xl">
                             <div class="flex gap-10 p-5 border-b border-slate-600 items-center">
-                                <button class="text-white bg-[#02515A] rounded-full py-2 px-4">DAY 02</button>
-                                <div class="text-xl">Kandy</div>
+                                <button class="text-white text-sm bg-[#02515A] rounded-full py-2 px-4">DAY 02</button>
+                                <div class="text-md">Kandy</div>
                             </div>
                             <div class="w-full p-5 flex gap-5">
-                                <img src="Assets/Image 4.png" class="" alt="">
-                                <div>
+                                    <div class="w-full sm:w-1/3">
+                                        <img class="object-cover w-full rounded-2xl" src="Assets/Image 4.png" class="" alt="">
+                                    </div>
+                                <div class="w-full sm:w-2/3">
                                     Arrive in Sri Lanka to a warm welcome from our guide at the airport. Explore the Pinnawala Elephant Orphanage on your way to Kandy, known for the world's largest captive elephant herd. Founded in 1975, the sanctuary cares for orphaned elephants.
                                     <br><br>
                                     After checking into your hotel, relax and attend the Kandy Cultural Dance Show in the evening. Visit the iconic Tooth Relic Temple, "Dalada Maligawa," for a dose of peaceful Buddhist culture with your guide's insights. Sleep overnight as a proud Kandyan, enjoying a journey blending nature and culture.
@@ -145,12 +149,14 @@
                         </div>
                         <div class="flex flex-col bg-[#F6F6F6] rounded-2xl">
                             <div class="flex gap-10 p-5 border-b border-slate-600 items-center">
-                                <button class="text-white bg-[#02515A] rounded-full py-2 px-4">DAY 03</button>
-                                <div class="text-xl">Kandy</div>
+                                <button class="text-white text-sm bg-[#02515A] rounded-full py-2 px-4">DAY 03</button>
+                                <div class="text-md">Kandy</div>
                             </div>
                             <div class="w-full p-5 flex gap-5">
-                                <img src="Assets/Image 4.png" class="" alt="">
-                                <div>
+                                    <div class="w-full sm:w-1/3">
+                                        <img class="object-cover w-full rounded-2xl" src="Assets/Image 4.png" class="" alt="">
+                                    </div>
+                                <div class="w-full sm:w-2/3">
                                     Arrive in Sri Lanka to a warm welcome from our guide at the airport. Explore the Pinnawala Elephant Orphanage on your way to Kandy, known for the world's largest captive elephant herd. Founded in 1975, the sanctuary cares for orphaned elephants.
                                     <br><br>
                                     After checking into your hotel, relax and attend the Kandy Cultural Dance Show in the evening. Visit the iconic Tooth Relic Temple, "Dalada Maligawa," for a dose of peaceful Buddhist culture with your guide's insights. Sleep overnight as a proud Kandyan, enjoying a journey blending nature and culture.
@@ -159,12 +165,14 @@
                         </div>
                         <div class="flex flex-col bg-[#F6F6F6] rounded-2xl">
                             <div class="flex gap-10 p-5 border-b border-slate-600 items-center">
-                                <button class="text-white bg-[#02515A] rounded-full py-2 px-4">DAY 04</button>
-                                <div class="text-xl">Kandy</div>
+                                <button class="text-white text-sm bg-[#02515A] rounded-full py-2 px-4">DAY 04</button>
+                                <div class="text-md">Kandy</div>
                             </div>
                             <div class="w-full p-5 flex gap-5">
-                                <img src="Assets/Image 4.png" class="" alt="">
-                                <div>
+                                    <div class="w-full sm:w-1/3">
+                                        <img class="object-cover w-full rounded-2xl" src="Assets/Image 4.png" class="" alt="">
+                                    </div>
+                                <div class="w-full sm:w-2/3">
                                     Arrive in Sri Lanka to a warm welcome from our guide at the airport. Explore the Pinnawala Elephant Orphanage on your way to Kandy, known for the world's largest captive elephant herd. Founded in 1975, the sanctuary cares for orphaned elephants.
                                     <br><br>
                                     After checking into your hotel, relax and attend the Kandy Cultural Dance Show in the evening. Visit the iconic Tooth Relic Temple, "Dalada Maligawa," for a dose of peaceful Buddhist culture with your guide's insights. Sleep overnight as a proud Kandyan, enjoying a journey blending nature and culture.
@@ -176,14 +184,16 @@
                             <input type="radio" name="my-accordion-2" checked="checked" />
                             <div class="collapse-title ">
                                 <div class="flex gap-10 p-5  items-center">
-                                <button class="text-white bg-[#02515A] rounded-full py-2 px-4">DAY 01</button>
-                                <div class="text-xl">Kandy</div>
+                                <button class="text-white text-sm bg-[#02515A] rounded-full py-2 px-4">DAY 01</button>
+                                <div class="text-md">Kandy</div>
                             </div>
                             </div>
                             <div class="collapse-content text-sm text-wrap">
                                 <div class="w-full p-5 flex flex-col sm:flex-row gap-5 border-t border-slate-600">
-                                <img src="Assets/Image 4.png" class="" alt="">
-                                <div>
+                                    <div class="w-full sm:w-1/3">
+                                        <img class="object-cover w-full rounded-2xl" src="Assets/Image 4.png" class="" alt="">
+                                    </div>
+                                <div class="w-full sm:w-2/3">
                                     Arrive in Sri Lanka to a warm welcome from our guide at the airport. Explore the Pinnawala Elephant Orphanage on your way to Kandy, known for the world's largest captive elephant herd. Founded in 1975, the sanctuary cares for orphaned elephants.
                                     <br><br>
                                     After checking into your hotel, relax and attend the Kandy Cultural Dance Show in the evening. Visit the iconic Tooth Relic Temple, "Dalada Maligawa," for a dose of peaceful Buddhist culture with your guide's insights. Sleep overnight as a proud Kandyan, enjoying a journey blending nature and culture.
@@ -195,14 +205,37 @@
                             <input type="radio" name="my-accordion-2" checked="checked" />
                             <div class="collapse-title ">
                                 <div class="flex gap-10 p-5  items-center">
-                                <button class="text-white bg-[#02515A] rounded-full py-2 px-4">DAY 02</button>
-                                <div class="text-xl">Colombo</div>
+                                <button class="text-white text-sm bg-[#02515A] rounded-full py-2 px-4">DAY 02</button>
+                                <div class="text-md">Colombo</div>
                             </div>
                             </div>
                             <div class="collapse-content text-sm text-wrap">
                                 <div class="w-full p-5 flex flex-col sm:flex-row gap-5 border-t border-slate-600">
-                                <img src="Assets/Image 4.png" class="" alt="">
-                                <div>
+                                    <div class="w-full sm:w-1/3">
+                                        <img class="object-cover w-full rounded-2xl" src="Assets/Image 4.png" class="" alt="">
+                                    </div>
+                                    <div class="w-full sm:w-2/3">
+                                        Arrive in Sri Lanka to a warm welcome from our guide at the airport. Explore the Pinnawala Elephant Orphanage on your way to Kandy, known for the world's largest captive elephant herd. Founded in 1975, the sanctuary cares for orphaned elephants.
+                                        <br><br>
+                                        After checking into your hotel, relax and attend the Kandy Cultural Dance Show in the evening. Visit the iconic Tooth Relic Temple, "Dalada Maligawa," for a dose of peaceful Buddhist culture with your guide's insights. Sleep overnight as a proud Kandyan, enjoying a journey blending nature and culture.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-100 border border-base-300 text-black">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title ">
+                                <div class="flex gap-10 p-5  items-center">
+                                <button class="text-white text-sm bg-[#02515A] rounded-full py-2 px-4">DAY 03</button>
+                                <div class="text-md">Matara</div>
+                            </div>
+                            </div>
+                            <div class="collapse-content text-sm text-wrap">
+                                <div class="w-full p-5 flex flex-col sm:flex-row gap-5 border-t border-slate-600">
+                                    <div class="w-full sm:w-1/3">
+                                        <img class="object-cover w-full rounded-2xl" src="Assets/Image 4.png" class="" alt="">
+                                    </div>
+                                <div class="w-full sm:w-2/3">
                                     Arrive in Sri Lanka to a warm welcome from our guide at the airport. Explore the Pinnawala Elephant Orphanage on your way to Kandy, known for the world's largest captive elephant herd. Founded in 1975, the sanctuary cares for orphaned elephants.
                                     <br><br>
                                     After checking into your hotel, relax and attend the Kandy Cultural Dance Show in the evening. Visit the iconic Tooth Relic Temple, "Dalada Maligawa," for a dose of peaceful Buddhist culture with your guide's insights. Sleep overnight as a proud Kandyan, enjoying a journey blending nature and culture.
@@ -214,33 +247,16 @@
                             <input type="radio" name="my-accordion-2" checked="checked" />
                             <div class="collapse-title ">
                                 <div class="flex gap-10 p-5  items-center">
-                                <button class="text-white bg-[#02515A] rounded-full py-2 px-4">DAY 03</button>
-                                <div class="text-xl">Matara</div>
+                                <button class="text-white text-sm bg-[#02515A] rounded-full py-2 px-4">DAY 04</button>
+                                <div class="text-md">Galle</div>
                             </div>
                             </div>
                             <div class="collapse-content text-sm text-wrap">
                                 <div class="w-full p-5 flex flex-col sm:flex-row gap-5 border-t border-slate-600">
-                                <img src="Assets/Image 4.png" class="" alt="">
-                                <div>
-                                    Arrive in Sri Lanka to a warm welcome from our guide at the airport. Explore the Pinnawala Elephant Orphanage on your way to Kandy, known for the world's largest captive elephant herd. Founded in 1975, the sanctuary cares for orphaned elephants.
-                                    <br><br>
-                                    After checking into your hotel, relax and attend the Kandy Cultural Dance Show in the evening. Visit the iconic Tooth Relic Temple, "Dalada Maligawa," for a dose of peaceful Buddhist culture with your guide's insights. Sleep overnight as a proud Kandyan, enjoying a journey blending nature and culture.
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-arrow bg-base-100 border border-base-300 text-black">
-                            <input type="radio" name="my-accordion-2" checked="checked" />
-                            <div class="collapse-title ">
-                                <div class="flex gap-10 p-5  items-center">
-                                <button class="text-white bg-[#02515A] rounded-full py-2 px-4">DAY 04</button>
-                                <div class="text-xl">Galle</div>
-                            </div>
-                            </div>
-                            <div class="collapse-content text-sm text-wrap">
-                                <div class="w-full p-5 flex flex-col sm:flex-row gap-5 border-t border-slate-600">
-                                <img src="Assets/Image 4.png" class="" alt="">
-                                <div>
+                                    <div class="w-full sm:w-1/3">
+                                        <img class="object-cover w-full rounded-2xl" src="Assets/Image 4.png" class="" alt="">
+                                    </div>
+                                <div class="w-full sm:w-2/3">
                                     Arrive in Sri Lanka to a warm welcome from our guide at the airport. Explore the Pinnawala Elephant Orphanage on your way to Kandy, known for the world's largest captive elephant herd. Founded in 1975, the sanctuary cares for orphaned elephants.
                                     <br><br>
                                     After checking into your hotel, relax and attend the Kandy Cultural Dance Show in the evening. Visit the iconic Tooth Relic Temple, "Dalada Maligawa," for a dose of peaceful Buddhist culture with your guide's insights. Sleep overnight as a proud Kandyan, enjoying a journey blending nature and culture.
@@ -250,8 +266,8 @@
                         </div>
                         
                     </div>
-                    <span class="w-3/5 h-[1px] bg-black"></span>
-                    <div class=""><span class="text-3xl sm:text-5xl font-black font-pri">Tour's Location </span><span class="text-xs sm:text-md" >Kandy | Colombo | Matara | galle</span></div>
+                    <span class="w-3/5 h-[1px] bg-black/30"></span>
+                    <div class=""><span class="text-3xl sm:text-4xl font-black font-pri">Tour's Location </span><span class="text-xs sm:text-md" >Kandy | Colombo | Matara | galle</span></div>
                     <div>
                         <img class="w-full" src="Assets/Screenshot 2025-04-27 134546.png" alt="">
                     </div>
