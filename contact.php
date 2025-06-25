@@ -27,10 +27,32 @@
             <div class="text-2xl font-black font-pri">HOME - CONTACT</div>
         </div>
         <div class="max-w-[2500px] w-full bg-white grow text-white">
+
+            <div class="w-full sm:p-20 bg-white flex flex-col items-center justify-center">
+                <div class="w-full max-w-[1000px] text-xl sm:text-3xl px-5 sm:px-0 py-15  text-black font-black">Have a question or comment? <br> Use the form below to send us a message. </div>
+                <div class="bg-[#F9F9F9] gap-20 sm:gap-0 w-full max-w-[1000px] py-15 px-10 flex flex-col sm:flex-row pb-28">
+                    <div class="w-full sm:w-1/2 flex flex-col gap-10">
+                        <form action="{{ url('/contactFormSubmit') }}" method="POST">
+                            @csrf
+                            <input class="bg-[#F3F3F3] w-full p-5 border-0 text-[#535446]" type="text" name="name" placeholder="Your Name" required>
+                            <input class="bg-[#F3F3F3] w-full p-5 border-0 text-[#535446] mt-10" type="text" name="phone" placeholder="Your Phone Number" required>
+                            <input class="bg-[#F3F3F3] w-full p-5 border-0 text-[#535446] mt-10" type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" class="bg-[#F3F3F3] w-full p-5 border-0 text-[#535446] mt-10" placeholder="Message Here" id="" rows="5" required></textarea>
+                            <button type="submit" class="bg-[#FF9933] text-white py-3 px-8 mt-10 hover:bg-[#e88929] transition">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="w-full sm:w-1/2 flex flex-col gap-5 sm:gap-20 p-5 sm:p-10 text-black">
+                        <div class="flex gap-5 items-center"><img class="w-5 h-fit" src="Assets/Group 123953.png" alt=""><div>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div></div>
+                        <div class="flex gap-5 items-center"><img class="w-5 h-fit" src="Assets/Group 123954.png" alt=""><div>8500, Negombo Road, Colombo, Sri Lanka</div></div>
+                        <div class="flex gap-5 items-center"><img class="w-5 h-fit" src="Assets/phone.png" alt=""><div>0900 am - 07:00pm</div></div>
+                        <div class="flex gap-5 items-center"><img class="w-5 h-fit" src="Assets/Group 123956.png" alt=""><div>MONDAY - THURSDAY  :  11AM - 5PM <br> FRIDAY - SUNDAY  :  10AM - 5PM <br> LAST POUR  :  4:30PM </div></div>
+                    </div>
+                </div>
+            </div>
             
 
 
-            <div class="w-full sm:p-20 bg-white flex justify-center">
+            <!-- <div class="w-full sm:p-20 bg-white flex justify-center">
                 <div class="bg-[#F9F9F9] w-[1000px] py-15 px-10 flex flex-col sm:flex-row pb-28">
                     <div class="w-full sm:w-1/2 flex flex-col gap-10">
                         <input class="bg-[#F3F3F3] p-5 border-0 text-[#535446]" type="text" placeholder="Your Name">
@@ -39,13 +61,13 @@
                         <textarea name="" class="bg-[#F3F3F3] p-5 border-0 text-[#535446]" placeholder="Message Here" id=""></textarea>
                     </div>
                     <div class="w-full sm:w-1/2 flex flex-col gap-5 sm:gap-20 p-5 sm:p-10 text-black">
-                        <div><div>8500, Negombo Road, Colombo, Sri Lanka</div></div>
-                        <div><div>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div></div>
-                        <div><div>0900 am - 07:00pm</div></div>
-                        <div><div>MONDAY - THURSDAY  :  11AM - 5PM <br> FRIDAY - SUNDAY  :  10AM - 5PM <br> LAST POUR  :  4:30PM </div></div>
+                        <div class="flex gap-5 items-center"><img class="w-5 h-fit" src="Assets/Group 123953.png" alt=""><div>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div></div>
+                        <div class="flex gap-5 items-center"><img class="w-5 h-fit" src="Assets/Group 123954.png" alt=""><div>8500, Negombo Road, Colombo, Sri Lanka</div></div>
+                        <div class="flex gap-5 items-center"><img class="w-5 h-fit" src="Assets/phone.png" alt=""><div>0900 am - 07:00pm</div></div>
+                        <div class="flex gap-5 items-center"><img class="w-5 h-fit" src="Assets/Group 123956.png" alt=""><div>MONDAY - THURSDAY  :  11AM - 5PM <br> FRIDAY - SUNDAY  :  10AM - 5PM <br> LAST POUR  :  4:30PM </div></div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.80372271723!2d79.88771612195676!3d6.8935379587504055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25990379a8a4f%3A0x4b887a5266410b49!2sSri%20Jayawardenepura%20Kotte!5e0!3m2!1sen!2slk!4v1748812805845!5m2!1sen!2slk" class="w-full h-[50vh]"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
